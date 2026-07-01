@@ -1,0 +1,18 @@
+.titulo-principal {
+  font-size: 6.5rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  max-width: 10ch;
+}
+
+@media (max-width: 650px) {
+  .titulo-principal {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .titulo-principal {
+    font-size: 2.5rem;
+  }
+}
