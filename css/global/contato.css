@@ -1,0 +1,31 @@
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  padding: 0 2rem;
+}
+
+@media (max-width: 800px) {
+  .contato-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.lista-contato li {
+  margin-bottom: 1.25rem;
+  font-size: 1.3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lista-contato li::before {
+  content: "";
+  width: 25px;
+  height: 10px;
+  background-color: #fb5;
+  display: block;
+  left: -30px;
+  position: absolute;
+}
