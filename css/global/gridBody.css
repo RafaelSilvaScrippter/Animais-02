@@ -2,3 +2,15 @@ body {
   display: grid;
   grid-template-columns: 100px 100px 2fr 2fr;
 }
+
+.container {
+  margin-bottom: 3rem;
+  grid-column: 2/ -1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-column: 1 / -1;
+    padding-left: 2.5rem;
+  }
+}
