@@ -1,18 +1,7 @@
-.main {
-  grid-column: 2/ -1;
-}
-
-@media (max-width: 600px) {
-  .main {
-    grid-column: 1 / -1;
-    padding-left: 2.5rem;
-  }
-}
-
 .lista-imagens {
   padding-left: 3rem;
   max-height: 450px;
-  overflow: scroll;
+  overflow-y: scroll;
   width: 100%;
   max-width: 500px;
 }
