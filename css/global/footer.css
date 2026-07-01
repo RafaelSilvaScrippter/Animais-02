@@ -1,0 +1,6 @@
+footer {
+  background-color: #fb5;
+  padding: 1.5rem 2rem;
+  font-size: 1.25rem;
+  grid-column: 3 / -1;
+}
