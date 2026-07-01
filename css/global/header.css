@@ -1,0 +1,18 @@
+.header {
+  background-color: #fb5;
+  padding: 1rem 1.3rem;
+  grid-column: 3 / -1;
+  margin-top: 1.5rem;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.lista-nav li a {
+  font-size: 1.175rem;
+  color: #222;
+}
