@@ -5,6 +5,7 @@ dt {
   font-weight: bold;
   display: flex;
   align-items: center;
+  margin-top: 1.125rem;
   margin-bottom: 1.25rem;
 }
 

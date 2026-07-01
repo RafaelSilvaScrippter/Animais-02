@@ -39,22 +39,16 @@
 .titulo-animais-main::before {
   content: "";
   background-color: #fb5;
-  width: 35px;
+  width: 25px;
   display: block;
   position: absolute;
   height: 10px;
-  left: -45px;
-}
-
-@media (max-width: 400px) {
-  .titulo-animais-main::before {
-    width: 10px;
-    left: -20px;
-  }
+  left: -30px;
 }
 
 .container-conteudo-animais {
   padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .container-conteudo-animais p {
