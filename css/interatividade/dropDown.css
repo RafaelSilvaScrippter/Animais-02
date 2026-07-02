@@ -1,0 +1,39 @@
+[data-sobre-menu] {
+  position: relative;
+}
+
+[data-menu-dropdown] {
+  position: absolute;
+  background-color: #ee5544;
+  padding: 1rem 1.2rem;
+  border-radius: 4px;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  display: none;
+  border: 2px solid #333;
+}
+
+[data-menu-dropdown]::before {
+  content: "";
+  position: absolute;
+  background-color: #ee5544;
+  width: 12px;
+  height: 12px;
+  border: 2px solid transparent;
+  border-left: 2px solid #333;
+  border-top: 2px solid #333;
+  top: -8px;
+  rotate: 42deg;
+}
+
+[data-menu-dropdown].on {
+  display: block;
+}
+
+[data-menu-dropdown] li {
+  margin-bottom: 0.7rem;
+}
+
+[data-menu-dropdown] li a:hover {
+  color: #fff;
+}

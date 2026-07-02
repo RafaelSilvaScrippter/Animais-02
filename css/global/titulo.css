@@ -3,6 +3,7 @@
   font-weight: 100;
   margin-bottom: 3rem;
   max-width: 10ch;
+  z-index: -1;
 }
 
 @media (max-width: 650px) {
