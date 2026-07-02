@@ -4,6 +4,7 @@ import { faq } from "./faq.js";
 import { dropDownMenu } from "./dropDown.js";
 import { modal } from "./modal.js";
 import { scrollBehavior } from "./scrollBehavior.js";
+import { animaScroll } from "./scrollAnima.js";
 
 tooltip();
 tabNav();
@@ -11,3 +12,4 @@ faq();
 dropDownMenu();
 modal();
 scrollBehavior();
+animaScroll();

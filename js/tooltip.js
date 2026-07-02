@@ -9,7 +9,6 @@ export function tooltip() {
   function createTooltip(e) {
     tooltipDiv.classList.add("tooltip");
     tooltipDiv.innerHTML = `<p>${dataTooltip.dataset.tooltip}</p>`;
-    console.log(dataTooltip.dataset.tooltip);
     dataContainerContato.append(tooltipDiv);
   }
 
