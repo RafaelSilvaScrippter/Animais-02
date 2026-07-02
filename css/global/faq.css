@@ -10,8 +10,14 @@ dt {
 }
 
 dl {
-  padding-left: 2rem;
+  padding-left: 6rem;
   padding-right: 2rem;
+}
+
+@media (max-width: 800px) {
+  dl {
+    padding-left: 1rem;
+  }
 }
 
 dd {

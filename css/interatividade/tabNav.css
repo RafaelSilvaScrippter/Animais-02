@@ -1,0 +1,34 @@
+[data-conteudo-animais] {
+  display: none;
+}
+
+[data-conteudo-animais].on {
+  display: block;
+}
+
+[data-conteudo-animais="left"].on {
+  animation: SlideLeft 1s forwards;
+}
+[data-conteudo-animais="top"].on {
+  animation: SlideTop 1s forwards;
+}
+
+@keyframes SlideLeft {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes SlideTop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(15px);
+  }
+}

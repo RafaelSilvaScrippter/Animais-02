@@ -3,12 +3,14 @@
   grid-template-columns: 1fr 2fr;
   gap: 3rem;
   padding: 0 2rem;
+  padding-left: 6rem;
 }
 
 @media (max-width: 800px) {
   .contato-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding-left: 1rem;
   }
 }
 
