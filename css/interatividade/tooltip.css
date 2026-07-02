@@ -5,6 +5,8 @@
   border: 2px solid #fb5;
   color: #fff;
   border-radius: 8px;
+  max-width: 200px;
+  width: 100%;
   outline: 3px solid rgba(0, 0, 0, 0.5);
 }
 
