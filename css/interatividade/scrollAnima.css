@@ -1,0 +1,7 @@
+[data-conteudo-scroll] {
+  opacity: 0;
+}
+
+[data-conteudo-scroll].on {
+  opacity: 1;
+}

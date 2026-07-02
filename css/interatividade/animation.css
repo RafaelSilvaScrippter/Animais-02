@@ -1,5 +1,6 @@
 [data-conteudo-animais="left"].on,
-[data-faq-descricao="left"] {
+[data-faq-descricao="left"],
+[data-conteudo-scroll].on {
   animation: SlideLeft 1s forwards;
 }
 [data-conteudo-animais="top"].on,
