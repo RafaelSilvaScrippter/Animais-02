@@ -1,3 +1,5 @@
+import { removeClassAll } from "./utils/removeClassAll.js";
+
 export function tabNav() {
   const dataConteudoAnimais = document.querySelectorAll(
     "[data-conteudo-animais]",
@@ -6,15 +8,9 @@ export function tabNav() {
     "[data-imagem-conteudo]",
   );
 
-  function removeAllClass(element) {
-    element.forEach((item) => {
-      item.classList.remove("on");
-    });
-  }
-
   dataImagemConteudo.forEach((item, index) => {
     item.addEventListener("click", () => {
-      removeAllClass(dataConteudoAnimais);
+      removeClassAll(dataConteudoAnimais, "on");
       dataConteudoAnimais[index].classList.add("on");
     });
   });
