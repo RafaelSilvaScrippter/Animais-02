@@ -1,5 +1,5 @@
 .lista-imagens {
-  padding-left: 3rem;
+  padding-left: 1rem;
   max-height: 450px;
   overflow-y: scroll;
   width: 100%;
@@ -12,7 +12,7 @@
 
 .conteudo-fotos {
   display: grid;
-  gap: 4rem;
+  gap: 3rem;
   grid-template-columns: auto 1fr;
 }
 
@@ -47,11 +47,21 @@
 }
 
 .container-conteudo-animais {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.container-conteudo-animais p {
+  max-width: 60ch;
 }
 
 .container-conteudo-animais p {
   margin-bottom: 1.5rem;
   font-size: 1.125rem;
+}
+
+@media (max-width: 400px) {
+  .container-conteudo-animais p {
+    font-size: 1rem;
+  }
 }
