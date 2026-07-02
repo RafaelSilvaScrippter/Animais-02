@@ -1,0 +1,7 @@
+[data-faq-descricao].on {
+  display: block;
+}
+
+[data-faq-descricao] {
+  display: none;
+}
