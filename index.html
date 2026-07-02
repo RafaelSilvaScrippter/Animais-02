@@ -9,7 +9,18 @@
 </head>
 
 <body>
-
+  <div data-modal>
+    <div data-item-modal class="modal">
+      <form method="post">
+        <span data-fechar class="fechar">X</span>
+        <label for="email">Email</label>
+        <input type="text" name="email">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha">
+        <button>Enviar</button>
+      </form>
+    </div>
+  </div>
   <header data-header class="header">
     <nav aria-label="navegacao primaria">
       <ul class="lista-nav">
@@ -18,7 +29,7 @@
 
         <li><a href="">Faq</a></li>
         <li><a href="">Contato</a></li>
-        <li><a href="">Dev →</a></li>
+        <li><a data-modal-link href="">Dev →</a></li>
       </ul>
       <div data-menu-dropdown class="dropDownMenu">
         <li><a href="#">A Empresa</a></li>
