@@ -1,0 +1,21 @@
+[data-horario-functionamento] {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  width: fit-content;
+}
+
+[data-horario-functionamento]::after {
+  content: "";
+  border: 2px solid #333;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  background-color: red;
+}
+[data-horario-functionamento].on::after {
+  background-color: green;
+}

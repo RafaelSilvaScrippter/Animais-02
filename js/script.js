@@ -5,6 +5,7 @@ import { dropDownMenu } from "./dropDown.js";
 import { modal } from "./modal.js";
 import { scrollBehavior } from "./scrollBehavior.js";
 import { animaScroll } from "./scrollAnima.js";
+import { horarioFuncionamento } from "./funcionamento.js";
 
 tooltip();
 tabNav();
@@ -13,3 +14,4 @@ dropDownMenu();
 modal();
 scrollBehavior();
 animaScroll();
+horarioFuncionamento();
