@@ -55,7 +55,7 @@ input {
   width: 100%;
 }
 
-button {
+.btn-modal {
   border: none;
   background-color: #ee5544;
   padding: 1rem 1.6rem;
