@@ -9,6 +9,19 @@
 </head>
 
 <body>
+
+  <div data-menu-mobile class="menu-mobile">
+    <button data-abrir-menu-mobile class="button-menu-mobile">Menu</button>
+    <ul data-ul-menu-mobile class="lista-nav menu-nav-mobile">
+      <li><a data-link href="">Animais</a></li>
+      <li data-sobre-menu><a href="#">Sobre</a></li>
+
+      <li><a data-link href="">Faq</a></li>
+      <li><a data-link href="">Contato</a></li>
+      <li><a data-modal-link href="">Dev →</a></li>
+    </ul>
+  </div>
+
   <div data-modal>
     <div data-item-modal class="modal">
       <form method="post">
@@ -17,7 +30,7 @@
         <input type="text" name="email">
         <label for="senha">Senha</label>
         <input type="password" name="senha">
-        <button>Enviar</button>
+        <button class="btn-modal">Enviar</button>
       </form>
     </div>
   </div>

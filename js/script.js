@@ -6,6 +6,7 @@ import { modal } from "./modal.js";
 import { scrollBehavior } from "./scrollBehavior.js";
 import { animaScroll } from "./scrollAnima.js";
 import { horarioFuncionamento } from "./funcionamento.js";
+import { MenuMobile } from "./menuMobile.js";
 
 tooltip();
 tabNav();
@@ -15,3 +16,4 @@ modal();
 scrollBehavior();
 animaScroll();
 horarioFuncionamento();
+MenuMobile();
