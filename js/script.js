@@ -7,6 +7,7 @@ import { scrollBehavior } from "./scrollBehavior.js";
 import { animaScroll } from "./scrollAnima.js";
 import { horarioFuncionamento } from "./funcionamento.js";
 import { MenuMobile } from "./menuMobile.js";
+import { FetchBitcoin } from "./http/fetchBtc.js";
 
 tooltip();
 tabNav();
@@ -17,3 +18,4 @@ scrollBehavior();
 animaScroll();
 horarioFuncionamento();
 MenuMobile();
+FetchBitcoin();
