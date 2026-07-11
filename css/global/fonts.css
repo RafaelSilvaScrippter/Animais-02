@@ -1,0 +1,14 @@
+.font-secundaria li a,
+dl,
+p,
+h2,
+.contato div ul li {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+.titulo-principal {
+  font-family: "Playfair Display SC";
+  font-weight: 100;
+  color: #333;
+}
