@@ -3,6 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name="description" content="Animais fantásticos">
   <link rel="stylesheet" href="./css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aniamais</title>
@@ -12,7 +16,7 @@
 
   <div data-menu-mobile class="menu-mobile">
     <button data-abrir-menu-mobile class="button-menu-mobile">Menu</button>
-    <ul data-ul-menu-mobile class="lista-nav menu-nav-mobile">
+    <ul data-ul-menu-mobile class="lista-nav menu-nav-mobile font-secundaria">
       <li><a data-link href="">Animais</a></li>
       <li data-sobre-menu><a href="#">Sobre</a></li>
 
@@ -36,7 +40,7 @@
   </div>
   <header data-header class="header">
     <nav aria-label="navegacao primaria">
-      <ul class="lista-nav">
+      <ul class="lista-nav font-secundaria">
         <li><a data-link href="">Animais</a></li>
         <li data-sobre-menu><a href="#">Sobre</a></li>
 
@@ -52,8 +56,8 @@
       </div>
     </nav>
   </header>
-  <main data-conteudo-scroll aria-labelledby="animaisfantasticos" class=" container">
-    <h1 id="animaisfantasticos" class="titulo-principal">Animais Fantásticos</h1>
+  <main aria-label="Animaisfantaticos" data-conteudo-scroll aria-labelledby="animaisfantasticos" class=" container">
+    <h1 itemid="Animaisfantaticos" id="animaisfantasticos" class="titulo-principal">Animais Fantásticos</h1>
     <div class="conteudo-fotos">
       <ul class="lista-imagens">
         <li><img data-imagem-conteudo src="./img/imagem1.jpg" alt="Raposa"></li>
@@ -143,7 +147,7 @@
       </div>
     </div>
   </main>
-  <article data-conteudo-scroll aria-labelledby="perguntasfrequentes" class="container">
+  <article aria-label="Perguntas frequentes" data-conteudo-scroll aria-labelledby="perguntasfrequentes" class="container">
     <h1 id="perguntasfrequentes" class="titulo-principal">Faq</h1>
 
     <dl>
@@ -164,8 +168,8 @@
       <dd data-faq-descricao="left">Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
     </dl>
   </article>
-  <section data-conteudo-scroll class="contato container">
-    <h1 id="perguntasfrequentes" class="titulo-principal">Contato</h1>
+  <section aria-labelledby="Contato" data-conteudo-scroll class="contato container">
+    <h1 id="Contato" class="titulo-principal">Contato</h1>
     <div class="contato-grid">
       <div data-container-contato>
         <img data-tooltip="endereço próximo ao estacionamento" src="./img/mapa.png" alt="mapa do nosso endereço">
