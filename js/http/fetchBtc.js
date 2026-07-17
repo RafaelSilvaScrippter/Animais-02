@@ -4,6 +4,4 @@ export async function FetchBitcoin() {
 
   const dados = await response.json();
   dataSpanBitcoin.innerText = (100 / dados.BRL.sell).toFixed(6);
-
-  console.log(1000 / dados.BRL.sell);
 }

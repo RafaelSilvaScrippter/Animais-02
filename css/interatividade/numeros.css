@@ -1,0 +1,22 @@
+[data-numeros]{
+    display: grid;
+    gap: 2rem;
+    padding-left: 4rem;
+    grid-template-columns: repeat(2,auto);
+}
+
+@media(max-width:600px){
+    [data-numeros]{
+        padding-left: 0;
+    }
+}
+
+[data-numeros] h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #e54;
+}
+[data-numeros] p{
+    padding-left: 20px;
+    font-size: 1.4rem;
+}

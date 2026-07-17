@@ -8,6 +8,7 @@ import { animaScroll } from "./scrollAnima.js";
 import { horarioFuncionamento } from "./funcionamento.js";
 import { MenuMobile } from "./menuMobile.js";
 import { FetchBitcoin } from "./http/fetchBtc.js";
+import { Numeros } from "./http/fetchNumeros.js";
 
 tooltip();
 tabNav();
@@ -19,3 +20,4 @@ animaScroll();
 horarioFuncionamento();
 MenuMobile();
 FetchBitcoin();
+Numeros();

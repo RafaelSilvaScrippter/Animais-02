@@ -30,4 +30,5 @@
   display: block;
   left: -30px;
   position: absolute;
+  z-index: -1;
 }
